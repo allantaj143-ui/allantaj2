@@ -6,7 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick='document'.getElementbyid().innerHTML="YOU CLICKED THE LOGIN BUTTON"></button>
+    <button onclick='document.getElementbyid(demo).innerHTML="YOU CLICKED THE LOGIN BUTTON"'>login</button>
     <h2 id="demo">sample js</h2>
+
+    <img id="image-1" src="me.jpg" alt=" " style="width: 300px; height: 400px;">
+    <button onclick='document.getElementById("image-1").src="me1.jpg"'>Change image</button>
+    <button onclick='document.getElementById("image-1").src="me.jpg"'>Change image</button>
 </body>
 </html>
